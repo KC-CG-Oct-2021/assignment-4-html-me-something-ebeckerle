@@ -1,1 +1,42 @@
 /* Write your CSS here! */
+body {
+    margin: 0px;
+    display: block;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    background-color: lightblue;
+}
+
+h2 {
+    background-color: lightskyblue;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+}
+
+.journey {
+    position: fixed;
+    left:0px;
+    width: 80%;
+    display: block;
+    float: left;
+
+}
+.sidebar {
+    position: fixed;
+    right: 0px;
+    background-color: cornflowerblue;
+    width: 20%;
+    height: 100%;
+
+}
+
+#navbar-ul {
+    list-style-type: none;
+}
